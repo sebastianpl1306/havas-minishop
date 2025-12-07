@@ -1,0 +1,47 @@
+/* Variables CSS */
+:root {
+  --primary-color: #2c5aa0;
+  --secondary-color: #2C3333;
+  --text-dark: #1a1a1a;
+  --text-light: #666;
+  --border-color: #ddd;
+  --error-color: #e74c3c;
+}
+
+/* Reset y estilos base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  font-family: 'Jomolhari', serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0rem 1.25rem;
+  padding: 0.3rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-family: 'Jomolhari', serif;
+  padding: 1.25rem 0.3rem 1.5rem 0.3rem;
+}
+
+@media (min-width: 1024px) {
+  .minishop {
+    padding: 0rem 5rem;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1.25rem;
+  }
+}

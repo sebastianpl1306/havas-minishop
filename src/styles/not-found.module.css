@@ -1,0 +1,13 @@
+.not-found {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  grid-column: span 3;
+  margin-top: 5rem;
+}
+
+@media (min-width: 1024px) {
+  .not-found {
+   grid-column: span 12;
+  }
+}

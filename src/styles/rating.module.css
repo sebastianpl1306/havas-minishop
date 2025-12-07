@@ -1,0 +1,13 @@
+.rating {
+    width: 100%;
+}
+
+.rating__text {
+    font-family: Arimo, sans-serif;
+    font-size: 0.875rem;
+}
+
+.rating__stars {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,25 @@
+.search {
+  margin: 0rem 0.3rem;
+}
+
+.search__input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  font-family: 'Arimo', sans-serif;
+  border: 1px solid #B9B9B9;
+  border-radius: 0.3rem;
+  outline: none;
+  transition: all 0.3s ease;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search__input:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 4px 12px rgba(44, 90, 160, 0.2);
+}
+
+.search__input::placeholder {
+  color: #B9B9B9;
+}
